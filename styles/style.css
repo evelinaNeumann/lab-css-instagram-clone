@@ -8,3 +8,108 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.container {
+  position: relative;
+  text-align: center;
+
+}
+.title{
+  position: relative;
+  color:#06365f ;
+  bottom: 8px;
+  left: 5px;
+  padding-right: 16%;
+  text-align: left;
+}
+
+.text{
+  position: relative;
+  text-align: left;
+  bottom: 28px;
+  left: 5px;
+  right: -55px;
+  padding-right: 10%;
+}
+.column {
+  float: left;
+  width: 45%;
+  padding: 5px;
+  margin-right: 50px;
+  margin-top:20px;
+  
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.phones{
+  margin-left: 12rem;
+}
+.brand{
+  position: relative;
+  right: 80px;
+  margin-right: 28rem;
+
+}
+.button{
+  background-image:linear-gradient(#3d6689,#06365f);
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 25px;
+position: relative;
+right: -120px;
+left: 350px;
+top: -110px;
+border-radius: 5px;
+}
+.home{
+  margin-right: 2rem ;
+  width: 30px;
+}
+.blue{
+  background-color:#06365f ;
+  height: 200px;
+}
+.frame{
+  position:absolute;
+  top: -80px;
+  right: -150px;
+  left: 550px;
+  width: 650px; 
+}
+.links{
+  padding: 5px;
+  display: flex;
+  gap: 5px;
+}
+.store_link{
+  position: relative;
+  float: left;
+  width: 25%;
+  padding: 5px; 
+}
+.links::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.nav-bar {
+  padding: 45px;
+  color:#d2d3d4;
+  text-align: center;
+}
+.nav-bar a {
+  
+  text-decoration: none;
+  color: #1c5380;
+  text-align: center;
+}
+#copyright{
+  color:#d2d3d4;
+}
